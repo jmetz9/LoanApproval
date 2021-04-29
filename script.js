@@ -50,10 +50,10 @@ function approve() {
     }
 
     if(approval === true){
-        $("p#output").text('You have been approved!');
+        $("p#output").text('Approved');
     }
     else{
-        $("p#output").text('You do not qualify for a loan.');
+        $("p#output").text('Not Approved');
     }
 
 
